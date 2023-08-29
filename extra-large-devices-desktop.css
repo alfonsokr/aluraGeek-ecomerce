@@ -3,7 +3,7 @@
   .container {
    
   
-    background: rgb(61, 61, 61);   
+    /* background: rgb(61, 61, 61);    */
     }
   
   
@@ -36,9 +36,11 @@
     gap: 5px;
   }
 
-  .producto__hide2{
-    display: block;
+  .producto__hide1, .producto__hide2 ,.producto__hide3 {
+    display: block !important;
   }
+
+  
 
    /*contacto*/
    .formcontato {
@@ -66,7 +68,7 @@
   .container {
    
    
-    background: pink;   
+    /* background: pink;    */
 
 }
 
@@ -265,6 +267,10 @@
     flex-direction: column;
     gap: 8px;
     
+  }
+
+  .producto__hide3{
+    display: block !important;
   }
 
   .producto__box {
@@ -525,6 +531,11 @@
   padding: 15px;
   border-radius: 4px;
 }
+
+
+
+
+
 
 
 }

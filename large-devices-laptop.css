@@ -6,7 +6,7 @@
     align-items: center;
     gap: 32px;
     width: 100%; */
-    background: rgb(202, 146, 44);
+    /* background: rgb(202, 146, 44); */
   }
 
   /* Menú */
@@ -211,7 +211,11 @@
   }
 
   .producto__hide2{
-    display: none;
+    display: none !important;
+  }
+
+  .producto__hide3{
+    display: block !important;
   }
 
   .producto__box {

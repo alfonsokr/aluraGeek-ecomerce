@@ -5,7 +5,7 @@
     /* flex-direction: column; */
     /* align-items: center; */
     /* margin: 30px; */
-    background: green;
+    /* background: green; */
   }
 
   /* Menú */
@@ -17,6 +17,7 @@
     /*alinea al centro entre arriba y abajo*/
     padding: 10px 10px 10px 10px;
     width: auto;
+    margin: 0;
     height: 88px;
     background: #FFF;
   }
@@ -28,12 +29,19 @@
   
   .menu__header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+  }
+
+  .menu-navbar{
+    display: flex;
+    width: auto;
   }
   
   .menu__list {
     display: flex;
+    justify-content: end;
     padding: 0;
   }
   
@@ -43,9 +51,35 @@
     padding: 0 !important; 
   }
 
-  .menu__input__hide {
-  /* display: none; */
+  .menu-search-container{
+    margin: 0 0 0 10px;
   }
+
+ 
+
+  /* .menu__input__hide {
+  display: none;
+  } */
+
+  .menu__input[type=text] {
+    padding: 6px;
+    
+    font-size: 17px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    }
+    .menu__btn {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    border-radius: 0 20px 20px 0 !important;
+    cursor: pointer;
+    }
 
   .menu__btn {
   float: right;
@@ -64,6 +98,10 @@
   }
   
   .menu__btnlogin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dddbdb;
   color: rgb(118, 109, 7);
   width: auto;
   padding: 10px;
@@ -216,8 +254,8 @@
     gap: 8px;
   }
   
-  .producto__hide1, .producto__hide2{
-    display: none;
+  .producto__hide1, .producto__hide2, .producto__hide3{
+    display: none !important;
   }
   
   .producto__box {
@@ -347,9 +385,9 @@
   .formcontato__text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
     gap: 32px;
-    flex: 3 0 0;
+    
   }
   
   .formcontato__title {
@@ -408,9 +446,9 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    width: auto;
+    width: 95%;
     height: 30px;
-    align-self: stretch;
+    
     margin: 0;
     font-size: 20px;
     font-family: Raleway;
@@ -423,7 +461,7 @@
     justify-content: flex-end;
     align-items: flex-start;
     align-self: stretch;
-    width: auto;
+    width: 95%;
     font-size: 20px;
     font-family: Raleway;
     font-weight: 500;
