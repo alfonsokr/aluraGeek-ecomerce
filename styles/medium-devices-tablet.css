@@ -120,7 +120,7 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-image: url("./assets/banner-image.png");
+  background-image: url("../assets/banner-image.png");
   background-repeat: no-repeat;
   background-size: cover;/*ocupa el 100% del ancho de la pantalla*/
   background-position: center center;
@@ -330,7 +330,7 @@ transition: .4s ease-in-out;
   height: 533px;
   flex-shrink: 0;
   align-self: center;
-  background-image: url("./assets/contacto.jpg");
+  background-image: url("../assets/contacto.jpg");
 }
 
 .formcontato__text__left, .menu__img{

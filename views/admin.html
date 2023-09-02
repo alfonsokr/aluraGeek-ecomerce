@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/parsley.css">
+    <link rel="stylesheet" href="../styles/admin.css">
     
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +22,7 @@
     <div class="container">
         <section class="menu">
             <header class="menu__header">
-             <a href="index.html"> <img class="menu__img"  src="assets\logo.png"> </a>   
+             <a href="../index.html"> <img class="menu__img"  src="../assets\logo.png"> </a>   
                 <div class="menu-search-container">
                     <form action="">
                       <input class="menu__input menu__input__hide " type="text" placeholder="Search.." name="search">
@@ -54,24 +55,15 @@
                 <h2 class="producto__title" >Todos los Productos</h2>
                 <a class="producto__btn" href="nuevoproducto.html">Agregar Producto</a>
             </div>
-            <div class="producto__container">
+            <div class="producto__container" data-producto>
+                   
                   <div class="producto__containerblue">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__container__img">
-                            <li class="producto__item__img"><img src="assets\img1.png"></li>
-                        </ul>
-                    </div>
-                        <ul class="producto__list">
-                            <li class="producto__item__title">Producto xyz</li>
-                            <li class="producto__item__subtitle">$80.000</li>
-                            <li class="producto__detalle"><a class="producto__detalle__href" href="#">Ver producto</a></li>
-                        </ul>
-                  </div>  
-                  <div class="producto__containerblue">        
-                    <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img2.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img2.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -81,9 +73,11 @@
                   </div>
                   <div class="producto__containerblue">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img3.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img3.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -93,9 +87,11 @@
                   </div>
                   <div class="producto__containerblue producto__hide3">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img4.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img4.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -105,9 +101,11 @@
                   </div>  
                   <div class="producto__containerblue  producto__hide1">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img5.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img5.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -117,9 +115,11 @@
                   </div>
                   <div class="producto__containerblue  producto__hide2 ">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img6.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img6.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -132,9 +132,11 @@
             <div class="producto__container">
                   <div class="producto__containerblue">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__container__img">
-                            <li class="producto__item__img"><img src="assets\img7.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img7.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -144,9 +146,11 @@
                   </div>  
                   <div class="producto__containerblue">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img8.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img8.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -156,9 +160,11 @@
                   </div>
                   <div class="producto__containerblue">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img9.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img9.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -168,9 +174,11 @@
                   </div>
                   <div class="producto__containerblue producto__hide3">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img10.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img10.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -180,9 +188,11 @@
                   </div>  
                   <div class="producto__containerblue  producto__hide1">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img11.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img11.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -192,9 +202,11 @@
                   </div>
                   <div class="producto__containerblue  producto__hide2">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img12.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img12.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -207,9 +219,11 @@
             <div class="producto__container">
                   <div class="producto__containerblue">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__container__img">
-                            <li class="producto__item__img"><img src="assets\img13.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img13.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -219,9 +233,11 @@
                   </div>  
                   <div class="producto__containerblue">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img14.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img14.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -231,9 +247,11 @@
                   </div>
                   <div class="producto__containerblue">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img15.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img15.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -243,9 +261,11 @@
                   </div>
                   <div class="producto__containerblue producto__hide3">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img16.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img16.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -255,9 +275,11 @@
                   </div>  
                   <div class="producto__containerblue  producto__hide1">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img17.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img17.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -267,9 +289,11 @@
                   </div>
                   <div class="producto__containerblue  producto__hide2">        
                     <div class="producto__box"><!--fondo-blanco-->
-                        <ul class="producto__list">
-                            <li class="producto__item__img"><img src="assets\img18.png"></li>
-                        </ul>
+                        <div class="producto__container__img">
+                            <img class="producto__item__img" src="../assets\img18.png">
+                            <button class="producto__edit__icon"><a href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a></button>
+                            <button class="producto__delete__icon"> <i class="producto__iconDelete fas fa-trash"></i> </button>
+                        </div>
                     </div>
                         <ul class="producto__list">
                             <li class="producto__item__title">Producto xyz</li>
@@ -285,7 +309,7 @@
             <div  class="formcontato__contacto">
                 <div class="formcontato__container">
                     <div class="formcontato__izquierda">
-                        <img class="menu__img" src="assets\logo.png">
+                        <img class="menu__img" src="../assets\logo.png">
                         <a class="formcontato__text__left" href="#">Quienes somos</a>
                         <a class="formcontato__text__left" href="#">Politica de privacidad</a>
                         <a class="formcontato__text__left" href="#">Programa de fidelidad</a>
@@ -327,8 +351,13 @@
                 
     </div>
        
-
-<script src="admin.js"></script>
-
+<script src="/js/jquery.js"></script>
+<script src="/js/parsley.min.js"></script>
+<script src="/js/validacion.js"></script>
+<script src="/js/es.js"></script>
+<script src="/js/admin.js"></script>
+<script src="/js/mycodejs.js"></script>
+<!-- tipe module permite trabajar con import y export -->
+<script type="module" src="/controller/cliente_controller.js"></script>
 </body>
 </html>

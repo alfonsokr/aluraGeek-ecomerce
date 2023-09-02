@@ -1,85 +1,22 @@
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
   .container {
-   
-  
-    /* background: rgb(61, 61, 61);    */
-    }
-  
-  
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%; */
+    /* background: rgb(202, 146, 44); */
+  }
+
+  /* Menú */
   .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 32px 10px 32px;
-    width: auto;
-    height: 88px;
-    background: #FFF;
-  }
-
- 
-  
-  .menu__img{
-    padding: 0;
-  }
-  
-  .baner__texto {
-    padding: 32px 32px 32px 32px;
-  }
-  
-  .producto {
-    padding: 32px 32px 32px 32px;
-    
-  }
-  .producto__container{
-    gap: 5px;
-  }
-
-  .producto__hide1, .producto__hide2 ,.producto__hide3 {
-    display: block !important;
-  }
-
-  
-
-   /*contacto*/
-   .formcontato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #EAF2FD;
-    width: 100%;
-}
-
-  .formcontato__contacto { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;   
-    padding: 32px 32px 32px 32px !important;
-    width: auto; 
-  }
-  
-}
-
-
-/* Extra large devices (large laptops and desktops, 1500px and up) */
-@media only screen and (min-width: 1500px) {
-  .container {
-   
-   
-    /* background: pink;    */
-
-}
-
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     /*alinea al centro entre arriba y abajo*/
-    padding: 10px 170px 10px 170px;
+    padding: 10px 10px 10px 10px;
     width: auto;
     height: 88px;
     background: #FFF;
@@ -99,6 +36,7 @@
 .menu__img {
     margin-right: 8px;
     margin-bottom: 0;
+    padding: 0 !important; 
 }
 .menu__input[type=text] {
   padding: 6px;
@@ -153,6 +91,10 @@
     transform: translateY(4px);
 }
 
+
+
+
+
   /*title*/
   .baner {
     display: flex;
@@ -169,7 +111,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("./assets/banner-image.png");
+    background-image: url("../assets/banner-image.png");
     background-repeat: no-repeat;
     background-size: cover;/*ocupa el 100% del ancho de la pantalla*/
     background-position: center center;
@@ -180,7 +122,7 @@
   .baner__texto {
     display: flex;
     flex-direction: column;
-    padding: 32px 170px 32px 170px;
+    padding: 10px 10px 10px 10px;
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
@@ -219,10 +161,10 @@
 
  
 
-   /*producto*/
+   /*Formación Académica*/
    .producto {
     display: flex;
-    padding: 32px 170px 32px 170px;
+    padding: 10px 10px 10px 10px;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
@@ -257,16 +199,19 @@
   .producto__container{
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 5px;
     width: 100%;
-    
+    height: auto;
     justify-content: space-between;
   }
   .producto__containerblue {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    
+  }
+
+  .producto__hide2{
+    display: none !important;
   }
 
   .producto__hide3{
@@ -293,8 +238,6 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 0;
-    gap: 15px;
   }
 
   .producto__item__img {
@@ -334,40 +277,38 @@
   
 }
 
-
   /*contacto*/
   .formcontato {
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: flex-start; */
-    /* padding: 0; */
-   
+    padding: 0;
     background: #EAF2FD;
-    width: 100%;
+    width: auto;
 }
 
 .formcontato__contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px 170px 10px 170px !important;
-    /* padding: 0; */
     width: auto;
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+
+
 }
 
 .formcontato__container {
     display: flex;
-    flex-direction: row;
     background: #555;
     align-items: center;
-    width: auto;
+    width: 100%;
     gap: 16px;
     padding-top: 64px;
     border: 3px solid rgb(98, 87, 4);
     border-radius: 12px;
-    
 }
 
 .formcontato__izquierda {
@@ -377,11 +318,14 @@
     justify-content: start;
     width: 464px;
     height: 593px;
-    background-image: url("./assets/contacto.jpg");
     
+    flex-shrink: 0;
+    align-self: center;
+    background-image: url("../assets/contacto.jpg");
 }
 
 .formcontato__text__left, .menu__img{
+    
     color:#090909;
     font-family: Raleway;
     font-size: 20px;
@@ -392,9 +336,9 @@
 }
 
 .formcontato__text__left:hover{
-    color: #252424;
-    font-size: 38px;
-    text-shadow: 1px 1px 1px rgb(98, 96, 28), 0 0 5px rgb(255, 255, 255), 0 0 5px rgb(252, 253, 252);
+  color: #252424;
+  font-size: 38px;
+  text-shadow: 1px 1px 1px rgb(98, 96, 28), 0 0 5px rgb(255, 255, 255), 0 0 5px rgb(252, 253, 252);
 }
 
 .formcontato__text {
@@ -501,6 +445,7 @@
 .footer {
   display: flex;
   width: 100%;
+  /* padding: 32px; */
   height: 5em;
   justify-content: center;
   align-items: center;
@@ -534,13 +479,4 @@
 
 
 
-
-
-
-
 }
-
-
-
-
-

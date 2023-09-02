@@ -1,0 +1,12 @@
+{
+  "producto":[
+        {
+           "url_imagen":  "https://media.istockphoto.com/id/1403098902/es/foto/gamepads-anticuados.jpg?s=612x612&w=0&k=20&c=XdX17uPUYALlol2qLY8EWQAuHrPsvVkY--TngRfJYOI=",
+           "categoria":   "consolas",
+           "nombre":      "productoxyZ",
+           "precio":      "$60.000",
+           "descripcion": "una consola elegante"
+        }
+    ] 
+}  
+    
