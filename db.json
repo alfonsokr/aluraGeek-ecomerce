@@ -1,12 +1,20 @@
 {
-  "producto":[
-        {
-           "url_imagen":  "https://media.istockphoto.com/id/1403098902/es/foto/gamepads-anticuados.jpg?s=612x612&w=0&k=20&c=XdX17uPUYALlol2qLY8EWQAuHrPsvVkY--TngRfJYOI=",
-           "categoria":   "consolas",
-           "nombre":      "productoxyZ",
-           "precio":      "$60.000",
-           "descripcion": "una consola elegante"
-        }
-    ] 
-}  
-    
+  "producto": [
+    {
+      "id": "1",
+      "url_imagen": "https://media.istockphoto.com/id/1403098902/es/foto/gamepads-anticuados.jpg?s=612x612&w=0&k=20&c=XdX17uPUYALlol2qLY8EWQAuHrPsvVkY--TngRfJYOI=",
+      "categoria": "consolas",
+      "nombreProducto": "productoxyZ",
+      "precio": "$60.000",
+      "descripcion": "una consola elegante"
+    },
+    {
+      "id": "39445efb-74da-4016-8d45-35916e365808",
+      "url_imagen": "https://cdn.pixabay.com/photo/2018/02/28/21/44/technology-3189176_1280.jpg",
+      "categoria": "consola",
+      "nombreProducto": "producto xyZ",
+      "precio": "$60.000",
+      "descripcion": "controles playstation"
+    }
+  ]
+}
