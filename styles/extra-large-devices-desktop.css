@@ -41,7 +41,13 @@
     display: block !important;
   }
 
-  
+  .producto__list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+  }
 
    /*contacto*/
    .formcontato {
@@ -311,6 +317,7 @@
     font-weight: 500;
     font-family: Raleway;
     color: #464646;
+    padding: 6px;
   }
 
   .producto__item__subtitle{

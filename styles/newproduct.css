@@ -2,7 +2,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .container {
-    background: red;
+    /* background: red; */
     }
 
     .container{
@@ -131,6 +131,7 @@
         color: #FFF;
         font-size: 18px;
         width: 100% !important;
+        cursor: pointer;
     }
 }
 
@@ -228,6 +229,7 @@
         color: #FFF;
         font-size: 18px;
         width: 100% !important;
+        cursor: pointer;
     }
 }
 
@@ -332,6 +334,7 @@
         color: #FFF;
         font-size: 18px;
         width: 100% !important;
+        cursor: pointer;
     }
 }
 
@@ -436,6 +439,7 @@
         color: #FFF;
         font-size: 18px;
         width: 100% !important;
+        cursor: pointer;
     }
 }
 
@@ -540,6 +544,7 @@
         color: #FFF;
         font-size: 18px;
         width: 100% !important;
+        cursor: pointer;
     }
 
 }
@@ -644,6 +649,7 @@
     color: #FFF;
     font-size: 18px;
     width: 100% !important;
+    cursor: pointer;
 }
 
 

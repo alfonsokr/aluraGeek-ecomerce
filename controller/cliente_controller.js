@@ -7,7 +7,7 @@ const crearNuevaLineaHtml = (url_imagen, categoria, nombreproducto, precio, desc
                         <div class="producto__box">
                             <div class="producto__container__img">
                                 <img class="producto__item__img" src="${url_imagen}" />
-                                <a class="producto__edit__icon" href="edit-product.html"> <i class="producto__icon fas fa-pen"></i> </a>
+                                <a class="producto__edit__icon" href="edit-product.html?id=${id}"> <i class="producto__icon fas fa-pen"></i> </a>
                                 <button class="producto__delete__icon" id="${id}" > <i class="producto__iconDelete fas fa-trash"></i> </button>
                             </div>
                         </div>
@@ -49,6 +49,3 @@ produtServices.listaProductos().then((datos) => {
 
 
 
-// const eliminarProducto = (id) => {
-//     console.log("eliminar a",id);
-// }

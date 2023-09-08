@@ -4,6 +4,20 @@
         /* background: red; */
     }
 
+
+
+    .producto__containerblue{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .producto__item__title{
+        display: flex;
+        flex-direction: column;
+        padding: 4px;
+    }
+
     .producto__btn{
         display: flex;
         flex-direction: row;
@@ -80,6 +94,15 @@
     .producto__iconDelete{
         color: red;
     }
+
+    .producto__list{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 15px;
+      }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -87,6 +110,21 @@
     .container {
         /* background: green; */
     }
+
+    .producto__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 5px;    
+    }
+
+    .producto__containerblue{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
     .producto__btn{
         display: flex;
         flex-direction: row;
@@ -158,6 +196,14 @@
         color: red;
     }
 
+    .producto__list{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 15px;
+      }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -165,6 +211,21 @@
     .container {
         /* background: rgb(59, 185, 248); */
     }
+
+    .producto__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2px;    
+    }
+
+    .producto__containerblue{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
     .producto__btn{
         display: flex;
         flex-direction: row;
@@ -230,12 +291,34 @@
         color: red;
     }
 
+    .producto__list{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 15px;
+      }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .container {
         /* background: rgb(202, 146, 44); */
+    }
+
+    .producto__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2px;    
+    }
+
+    .producto__containerblue{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
     }
 
     .producto__btn {
@@ -303,6 +386,14 @@
     .producto__iconDelete{
         color: red;
     }
+
+    .producto__list{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 15px;
+      }
 
 }
 
@@ -312,6 +403,20 @@
         /* background: rgb(61, 61, 61); */
     }
 
+    .producto__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;    
+    }
+
+    .producto__containerblue{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
     .producto__btn {
         display: flex;
         flex-direction: row;
@@ -378,12 +483,28 @@
         color: red;
     }
 
+    .producto__list{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 15px;
+      }
+
 
 }
 
 @media only screen and (min-width: 1500px) {
     .container {
         /* background: pink;    */
+    }
+
+    .producto__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 17px;    
     }
 
     .producto__btn {
@@ -407,6 +528,12 @@
         text-shadow: 1px 1px 1px rgb(98, 96, 28), 0 0 5px rgb(255, 255, 255), 0 0 5px rgb(252, 253, 252);
     }
 
+    .producto__containerblue{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
     .producto__container__img{
         /* display: inline-block; */
         position: relative;
@@ -450,12 +577,17 @@
 
     .producto__icon{
         color: #fff;
+    }
 
+    .producto__icon:hover{
+        color: #2A7AE4;
     }
 
     .producto__iconDelete{
         color: red;
     }
+
+   
 
     #myBtn {
         display: none;

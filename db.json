@@ -4,17 +4,137 @@
       "id": "1",
       "url_imagen": "https://media.istockphoto.com/id/1403098902/es/foto/gamepads-anticuados.jpg?s=612x612&w=0&k=20&c=XdX17uPUYALlol2qLY8EWQAuHrPsvVkY--TngRfJYOI=",
       "categoria": "consolas",
-      "nombreProducto": "productoxyZ",
+      "nombreProducto": "consola family",
       "precio": "$60.000",
       "descripcion": "una consola elegante"
     },
     {
       "id": "39445efb-74da-4016-8d45-35916e365808",
       "url_imagen": "https://cdn.pixabay.com/photo/2018/02/28/21/44/technology-3189176_1280.jpg",
-      "categoria": "consola",
-      "nombreProducto": "producto xyZ",
-      "precio": "$60.000",
+      "categoria": "consolaModificada",
+      "nombreProducto": "controles xbox",
+      "precio": "$70.000",
       "descripcion": "controles playstation"
+    },
+    {
+      "id": "482cc780-52a5-411a-ae56-a5908f8b7149",
+      "url_imagen": "https://cdn.pixabay.com/photo/2017/04/04/18/17/video-game-console-2202660_1280.jpg",
+      "categoria": "consola",
+      "nombreProducto": "nintendo swich",
+      "precio": "$60.000",
+      "descripcion": "nintendo swich blanca"
+    },
+    {
+      "id": "3a8c1b02-e161-49cf-9814-815f92a9cdb2",
+      "url_imagen": "https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_1280.jpg",
+      "categoria": "pc",
+      "nombreProducto": "notebook white",
+      "precio": "$60.000",
+      "descripcion": "notebook white"
+    },
+    {
+      "id": "8166c6c0-1704-41b2-a8e3-4b785ce62d0a",
+      "url_imagen": "https://cdn.pixabay.com/photo/2017/06/29/10/28/games-2453777_1280.jpg",
+      "categoria": "perifericos",
+      "nombreProducto": "controles xbox",
+      "precio": "$60.000",
+      "descripcion": "controles xbox "
+    },
+    {
+      "id": "59968472-6b1d-47ea-a55b-e65b0420c022",
+      "url_imagen": "https://media.istockphoto.com/id/612254190/es/foto/conceptos-de-gafas-de-realidad-virtual-con-gafas-para-auriculares.jpg?s=2048x2048&w=is&k=20&c=QHktbCU1Ys1pgyTvCEOJm5g3sfl3RiDTxJVysHkXhZA=",
+      "categoria": "perifericos",
+      "nombreProducto": "gafas realidad aumentada",
+      "precio": "$80.000",
+      "descripcion": "gafas de realidad aumentada"
+    },
+    {
+      "id": "9c427813-006e-4e2c-9c0b-99fc46e7fc59",
+      "url_imagen": "https://cdn.pixabay.com/photo/2017/04/04/18/12/video-game-console-2202613_1280.jpg",
+      "categoria": "consola",
+      "nombreProducto": "clasical dualshock",
+      "precio": "$80.000",
+      "descripcion": "consola playStation gris clasica"
+    },
+    {
+      "id": "3987f895-fc1c-4cd6-a844-0bb391856f9e",
+      "url_imagen": "https://media.istockphoto.com/id/1469735054/es/foto/jugando-juegos-de-video.jpg?s=2048x2048&w=is&k=20&c=k3DaWhAxN9zhYUDbmltQk5_ZVG7EDo5jLQ9LI4f-h6k=",
+      "categoria": "pc",
+      "nombreProducto": "gamer desktop",
+      "precio": "$90.000",
+      "descripcion": "torre rgb"
+    },
+    {
+      "id": "d387e21b-83f4-4ca7-814c-2abc41f94330",
+      "url_imagen": "https://cdn.pixabay.com/photo/2017/04/04/18/14/video-game-console-2202634_1280.jpg",
+      "categoria": "consola",
+      "nombreProducto": "play station",
+      "precio": "$60.000",
+      "descripcion": "play station edition"
+    },
+    {
+      "id": "f44d7b46-c878-4d9f-9fcc-e3206d991f45",
+      "url_imagen": "https://cdn.pixabay.com/photo/2016/07/30/20/39/mario-1557973_1280.jpg",
+      "categoria": "juguetes",
+      "nombreProducto": "mario y luigi",
+      "precio": "$70.000",
+      "descripcion": "juguetes gamer"
+    },
+    {
+      "id": "fd8a63e4-c2a7-4818-a49c-734f2b6cb00e",
+      "url_imagen": "https://cdn.pixabay.com/photo/2019/07/06/20/31/joystick-4321216_1280.jpg",
+      "categoria": "perifericos",
+      "nombreProducto": "joystick arcade",
+      "precio": "$80.000",
+      "descripcion": "joystick arcade black"
+    },
+    {
+      "id": "aef5c196-9660-4627-be32-c562f73fd224",
+      "url_imagen": "https://cdn.pixabay.com/photo/2016/07/30/14/28/yoschi-1557252_1280.jpg",
+      "categoria": "juguetes",
+      "nombreProducto": "yoshi mario",
+      "precio": "$60.000",
+      "descripcion": "yoshi mario juguete"
+    },
+    {
+      "id": "ec0c20db-bc9c-434d-8a26-abc9c221b304",
+      "url_imagen": "https://cdn.pixabay.com/photo/2017/04/04/18/06/video-game-console-2202554_1280.jpg",
+      "categoria": "consola",
+      "nombreProducto": "nintendo game cube",
+      "precio": "$90.000",
+      "descripcion": "nintendo game cube purple"
+    },
+    {
+      "id": "67373135-96e2-4820-b7cc-a8bebc6a7260",
+      "url_imagen": "https://cdn.pixabay.com/photo/2017/04/04/18/15/video-game-console-2202637_1280.jpg",
+      "categoria": "consola",
+      "nombreProducto": "play station dos",
+      "precio": "$80.000",
+      "descripcion": "play station 2 black"
+    },
+    {
+      "id": "a5661c41-bb55-4222-a67d-174288a6b8c9",
+      "url_imagen": "https://cdn.pixabay.com/photo/2017/04/04/18/10/video-game-console-2202589_1280.jpg",
+      "categoria": "consola",
+      "nombreProducto": "game boy ",
+      "precio": "$60.000",
+      "descripcion": "game boy advance"
+    },
+    {
+      "id": "7b244fda-efb6-4f33-8aa1-4221e2be5c4f",
+      "url_imagen": "https://cdn.pixabay.com/photo/2017/04/04/18/12/video-game-console-2202618_1280.jpg",
+      "categoria": "consola",
+      "nombreProducto": "raspberry pi",
+      "precio": "$60.000",
+      "descripcion": "raspberry pi 2"
+    },
+    {
+      "id": "a133c6ba-c047-4260-80f5-e7ef26961578",
+      "url_imagen": "https://cdn.pixabay.com/photo/2019/03/17/14/44/gaming-4061103_1280.jpg",
+      "categoria": "perifericos",
+      "nombreProducto": "control xbox inalámbrico",
+      "precio": "$80.000",
+      "descripcion": "controles xbox "
     }
   ]
 }

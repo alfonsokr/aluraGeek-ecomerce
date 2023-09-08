@@ -21,10 +21,30 @@ const eliminarProducto = (id) => {
     });
 };
 
+const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) =>
+    respuesta.json()
+    );
+};
+
+const editarProducto = (url_imagen, categoria, nombreProducto, precio, descripcion, id) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+        method: "PUT",
+        headers:{"Content-Type":"application/json"},
+        // http trabaja con texto y stringify convierte a texto
+        body: JSON.stringify({id, url_imagen, categoria, nombreProducto, precio, descripcion  }),
+        })
+        .then((respuesta) => respuesta)
+        .catch((err) => console.log(err));
+};
+
+
 export const produtServices = {
     listaProductos,
     crearproducto,
     eliminarProducto,
+    detalleProducto,
+    editarProducto,
 };
     
 
