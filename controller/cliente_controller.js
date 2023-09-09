@@ -24,7 +24,9 @@ const crearNuevaLineaHtml = (url_imagen, categoria, nombreproducto, precio, desc
         const id = btndelete.id;
         produtServices.eliminarProducto(id).then((respuesta) =>{
             
-        }).catch((err) => alert("error al borrar producto"));    
+        }).catch((err) => alert("error al borrar producto"));
+        alert("Producto eliminado correctamente");
+        window.location.reload();    
     });
 
 

@@ -18,4 +18,5 @@ formulario.addEventListener("submit", (evento) => {
         
     }).catch(err => console.log(err));
     alert("Producto agregado correctamente");
+    window.location.reload();
 });

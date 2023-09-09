@@ -51,5 +51,6 @@ formulario.addEventListener("submit", (evento) => {
     
     produtServices.editarProducto(url_imagen, categoria, nombreProducto, precio, descripcion, id).then(() =>{
         alert("Producto modificado correctamente");
+        window.location.reload();
     });
 });
